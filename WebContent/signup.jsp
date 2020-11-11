@@ -36,10 +36,10 @@
 				<form action="Signup" method="post">
 
 					<label>Please Enter Username:</label> <input type="text"
-						placeholder="Username" class="form-control" name="uname"><br>
+						placeholder="Username" class="form-control" name="uname" required="required"><br>
 					<br> <label>Please Enter Password:</label> <input
 						type="password" placeholder="Password" class="form-control"
-						name="pass"><br> <input type="submit"
+						name="pass" required="required"><br> <input type="submit"
 						class='btn btn-danger' value="Save">
 
 				</form>
